@@ -23,7 +23,6 @@ object PubsubGoogleConsumer {
     *
     * The stream fails with an [[InternalPubSubError]] if the underlying Java consumer fails.
     *
-    * @param blocker
     * @param projectId    google cloud project id
     * @param subscription name of the subscription
     * @param errorHandler upon failure to decode, an exception is thrown. Allows acknowledging the message.
@@ -48,7 +47,6 @@ object PubsubGoogleConsumer {
     *
     * The stream fails with an [[InternalPubSubError]] if the underlying Java consumer fails.
     *
-    * @param blocker
     * @param projectId    google cloud project id
     * @param subscription name of the subscription
     * @param errorHandler upon failure to decode, an exception is thrown. Allows acknowledging the message.
